@@ -1,0 +1,142 @@
+<div class="background-blob"></div>
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+    <div class="layout-container flex h-full min-h-screen grow flex-col justify-center items-center relative z-10 p-4 sm:p-6 md:p-8">
+        <div class="layout-content-container flex flex-col max-w-5xl flex-1 justify-center items-center w-full text-center">
+            <main class="flex flex-col items-center justify-center flex-1 w-full space-y-12 ">
+                <h1 class="text-white tracking-tight text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold font-display">FLAMOX365</h1>
+                <div class="relative w-full max-w-4xl">
+                    <div class="absolute inset-0 bg-primary/20 blur-3xl rounded-full"></div>
+                    <div class="relative w-full aspect-video bg-black/50 border border-white/10 rounded-lg overflow-hidden">
+                        <iframe class="w-full h-full"
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=4uHCOZgof0PWWAnZ&amp;controls=0"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center justify-center gap-4 pt-8 w-full max-w-xl">
+                    <h2 class="text-xl sm:text-2xl font-semibold text-white">Verpassen Sie nicht die Zukunft des Ofenbaus – exklusive Einblicke warten auf Sie!</h2>
+                    <form class="flex flex-col lg:flex-row w-full  justify-center gap-2 sm:gap-4 mt-4">
+                        <label class="sr-only"
+                               for="email-address">Email address</label>
+                        <input autocomplete="email"
+                               class="grow min-w-0 appearance-none rounded-md border border-white/20 bg-transparent px-4 py-3 text-white placeholder-white/40 shadow-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary sm:text-sm"
+                               id="email-address"
+                               name="email"
+                               placeholder="Ihre E-Mail-Adresse"
+                               required=""
+                               type="email" />
+                        <button class="inline-flex items-center justify-center rounded-md border border-transparent bg-primary px-6 py-2 text-base font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background-dark transition-colors"
+                                type="submit"
+                                (click)="onSubscribe()">Abonnieren</button>
+                    </form>
+                    <div class="flex items-center justify-center gap-4 sm:gap-5 flex-wrap mt-4">
+                        <a aria-label="Besuchen Sie uns auf Youtube"
+                           class="text-white/70 hover:text-primary transition-colors duration-300"
+                           href="#">
+                            <svg class="fill-current"
+                                 height="24"
+                                 viewBox="0 0 256 256"
+                                 width="24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M234.33,75.87A32.12,32.12,0,0,0,211.5,53.33C193.35,48,128,48,128,48s-65.35,0-83.5,5.33A32.12,32.12,0,0,0,21.67,75.87,333.22,333.22,0,0,0,16,128a333.22,333.22,0,0,0,5.67,52.13A32.12,32.12,0,0,0,44.5,202.67C62.65,208,128,208,128,208s65.35,0,83.5-5.33a32.12,32.12,0,0,0,22.83-22.54A333.22,333.22,0,0,0,240,128,333.22,333.22,0,0,0,234.33,75.87ZM104,159.08V96.92L162.72,128Z"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Besuchen Sie uns auf Facebook"
+                           class="text-white/70 hover:text-primary transition-colors duration-300"
+                           href="#">
+                            <svg class="fill-current"
+                                 height="24"
+                                 viewBox="0 0 256 256"
+                                 width="24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M232,128a104,104,0,1,0-112,103.48V152H88V120h32V96a40,40,0,0,1,40-40h24v32H168a8,8,0,0,0-8,8v24h32l-4.2,32H160v79.48A104.11,104.11,0,0,0,232,128Z"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Besuchen Sie uns auf Instagram"
+                           class="text-white/70 hover:text-primary transition-colors duration-300"
+                           href="#">
+                            <svg class="fill-current"
+                                 height="24"
+                                 viewBox="0 0 256 256"
+                                 width="24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Besuchen Sie uns auf TikTok"
+                           class="text-white/70 hover:text-primary transition-colors duration-300"
+                           href="#">
+                            <svg class="fill-current"
+                                 height="24"
+                                 viewBox="0 0 256 256"
+                                 width="24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M224,96a16,16,0,0,1-16,16h-16V136a72,72,0,0,1-144,0c0-14.7,4.36-28.53,12.12-40H48a16,16,0,0,1,0-32h50.59A72.1,72.1,0,0,1,160,32V64h32A32,32,0,0,1,224,96Z"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Besuchen Sie uns auf LinkedIn"
+                           class="text-white/70 hover:text-primary transition-colors duration-300"
+                           href="#">
+                            <svg class="fill-current"
+                                 height="24"
+                                 viewBox="0 0 256 256"
+                                 width="24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Besuchen Sie uns auf Xing"
+                           class="text-white/70 hover:text-primary transition-colors duration-300"
+                           href="#">
+                            <svg class="fill-current"
+                                 height="24"
+                                 viewBox="0 0 256 256"
+                                 width="24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M149.33,149.52l-23-39.81,23-39.81a8,8,0,0,0-13.85-8L112.45,102,96.33,74.52a8,8,0,0,0-13.85,8l23,39.81-23,39.81a8,8,0,0,0,13.85,8L120.3,154l16.12,27.91a8,8,0,0,0,13.85-8ZM216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216Z"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Besuchen Sie uns auf X"
+                           class="text-white/70 hover:text-primary transition-colors duration-300"
+                           href="#">
+                            <svg class="fill-current"
+                                 height="24"
+                                 viewBox="0 0 256 256"
+                                 width="24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M240,72c-9.2,4.1-19.1,6.8-29.5,8.1a50.4,50.4,0,0,0,22.6-28.4,101.4,101.4,0,0,1-32.6,12.4A50.7,50.7,0,0,0,115.4,128c1.3,17.4,6.2,33.5,14.8,47.9-42.1-2.1-79.5-22.3-104.5-53s-36.8-70.1-19-101.9a49.9,49.9,0,0,0,41.2,27.8,49.2,49.2,0,0,1-22.8-6.3c1.3,18.1,13.2,34.1,29.9,40.7a48.8,48.8,0,0,1-13.4,1.8,50.5,50.5,0,0,0,47,35,101.5,101.5,0,0,1-62.8,21.6A106,106,0,0,1,16,200a142.4,142.4,0,0,0,77.2,22.7c92.6,0,143.2-76.8,143.2-143.3,0-2.2,0-4.4-.1-6.5A102.3,102.3,0,0,0,240,72Z"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Besuchen Sie uns auf Pinterest"
+                           class="text-white/70 hover:text-primary transition-colors duration-300"
+                           href="#">
+                            <svg class="fill-current"
+                                 height="24"
+                                 viewBox="0 0 256 256"
+                                 width="24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216ZM156,124a28,28,0,0,1-46.7-18.12c-1.39-16.14,12.28-31.54,12.28-31.54s-7.1-13,1.38-23.2C130,48,136.25,58.3,137.6,63c3.48,12,12.55,30.3,3.74,40.23-11.23,12.63-24.3-7.53-24.3-7.53S112,84.14,113.79,76.5C118.25,56,134.46,48,149,52.4c20,6.1,28.24,24.77,23,43C166.45,109.81,156,124,156,124Zm-28-56c-1.33-4.7,0-8,0-8s-8,32-8,40,16,20,24,8S172,76,172,76,145.33,42.67,128,68Z"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Besuchen Sie uns auf Trustpilot"
+                           class="text-white/70 hover:text-primary transition-colors duration-300"
+                           href="#">
+                            <svg class="fill-current"
+                                 height="24"
+                                 viewBox="0 0 24 24"
+                                 width="24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.316 6.333l-4.25 3.066l1.633 5.15l-4.267-3.05l-4.233 3.05l1.6-5.15l-4.216-3.067H8.25l1.6-5.15h4.317l1.6 5.15zM24 12l-1.95 5.833h-5.833L12 20.35l-4.217-2.517H2L0 12l4.217-2.517H2L3.95 3.65L12 1.133l4.217 2.517h5.833L24 12z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</div>

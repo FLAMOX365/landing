@@ -1,0 +1,23 @@
+export default {
+    darkMode: "class",
+    theme: {
+        extend: {
+            colors: {
+                primary: "#BE1818",
+                'background-light': "#f8f6f6",
+                'background-dark': "#1D1D1D",
+            },
+
+            fontFamily: {
+                display: ["Space Grotesk", "sans-serif"],
+            },
+
+            borderRadius: {
+                DEFAULT: "0.25rem",
+                lg: "0.5rem",
+                xl: "0.75rem",
+                full: "9999px",
+            },
+        },
+    },
+}
